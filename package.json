@@ -1,0 +1,13 @@
+{
+  "name": "ext-workflow-automation",
+  "version": "1.0.0",
+  "description": "Comprehensive workflow automation engine for Chrome extensions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": ["chrome-extension", "workflow", "automation"],
+  "license": "MIT"
+}
