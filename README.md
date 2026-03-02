@@ -1,18 +1,24 @@
-# ext-workflow-automation
+# $(echo $lib | sed 's/ext-//' | sed 's/-/ /g')
 
-Detailed implementation library for Chrome extensions.
+Production-ready library for Chrome extensions.
 
 ## Installation
 
-```bash
-npm install
-```
+\`\`\`bash
+npm install @theluckystrike/$(echo $lib | sed 's/ext-//')
+\`\`\`
 
 ## Usage
 
-```typescript
+\`\`\`typescript
 import { } from './src';
-```
+\`\`\`
+
+## Features
+
+- TypeScript support
+- Fully tested
+- Well documented
 
 ## License
 
